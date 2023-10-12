@@ -1,0 +1,174 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+*,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif !important;
+}
+#root {
+  height: 100vh;
+  background-color: #b5d8fe;
+}
+.container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 60px;
+}
+.loadingContainer {
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.weatherCard {
+  height: 100%;
+  border-radius: 30px;
+  background-color: #5c9be5;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+.cardLeft {
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 50px !important;
+  height: 100%;
+  border-radius: 30px;
+  background-color: #5c9be5;
+}
+.searcInputContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border-radius: 10px !important;
+}
+.cityDetailContainer {
+  width: 100%;
+}
+.cityDetailImage {
+  width: 100%;
+  height: 200px;
+  margin-top: 10px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+.cityDetailDateTime {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+}
+.cityDetailInfo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+.weatherDetailContainer {
+  padding: 30px 20px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.weatherDetailHeader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+.weatherDetailInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+.weatherDetailInfoBody {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.weatherDetailInfoList {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.weatherDetailInfoListItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.weatherDetailInfoListItemIcon {
+  margin-right: 5px;
+}
+.cardRight {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 50px !important;
+  height: 100%;
+  border-radius: 30px;
+  background-color: #e3f1ff;
+}
+.cardRightHeader {
+  width: 100%;
+}
+.cardRightTitle {
+  align-self: flex-start;
+  font-weight: bold;
+}
+.cardRightSubTitle {
+  line-height: 1 !important;
+  align-self: flex-start;
+  color: rgb(121, 121, 121);
+}
+.forecastTopContainer {
+  width: 100%;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+.forecastTopContainer hr {
+  border-top: 1px solid #f2f2f2;
+  border-left: 1px solid #f2f2f2;
+}
+.forecastHeader {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.forecastTitle {
+  text-transform: uppercase;
+}
+.forecastContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+}
+.forecastItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
